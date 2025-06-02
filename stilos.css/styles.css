@@ -1,0 +1,97 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: #7e3322;
+}
+
+.bitter-uniquifier> {
+  font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+:root {
+  --tipografiaPrincipal:"Bitter", serif;
+  --colorPrincipal:#F4F2EF ;
+  --margin: 20px;
+  --tamaño: 30px;
+}
+
+.inicio {
+  background-color: #7e3322;
+  font-family: var(--tipografiaPrincipal);
+  color: var(--colorPrincipal);
+  height: 600px;
+}
+
+.text {
+  margin: var(--margin);
+  margin-top: 100px;
+}
+
+.inicio1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.inicio img {
+  width: 300px;
+  padding: 15px;
+  margin-top: 70px;
+  border-radius: 25px;
+  box-shadow: 3px 8px 71px 2px rgba(245,157,117,0.58);
+-webkit-box-shadow: 3px 8px 71px 2px rgba(245,157,117,0.58);
+-moz-box-shadow: 3px 8px 71px 2px rgba(245,157,117,0.58);
+}
+
+.text p {
+  font-size: 30px;
+}
+
+.text h1 {
+  font-size: 50px;
+}
+
+.sobre-mi {
+  background-color: #c16363;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.tex {
+  font-family: var(--tipografiaPrincipal);
+  color: var(--colorPrincipal);
+}
+
+.text-p {
+  font-size: 20px;
+  width: 500px;
+  padding: 25px;
+}
+
+.sobre-mi img {
+  width: 150px;
+  padding: 25px;
+}
+
+.tex-mi {
+  font-size: 30px;
+}
+.proyect {
+  background-color: #ed9b9a;
+}
+
+.skills{
+  background-color: #b5a448;
+}
+
+.contact {
+  background-color: #806522;
+}
