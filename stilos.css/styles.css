@@ -70,9 +70,13 @@ body {
   color: var(--colorPrincipal);
 }
 
+.tex h2 {
+  font-size: 50px;
+}
+
 .text-p {
   font-size: 20px;
-  width: 500px;
+  width: 800px;
   padding: 25px;
 }
 
@@ -81,17 +85,85 @@ body {
   padding: 25px;
 }
 
-.tex-mi {
-  font-size: 30px;
-}
 .proyect {
   background-color: #ed9b9a;
+  height: 400px;
+}
+
+.proyect h2 {
+  font-family: var(--tipografiaPrincipal);
+  font-size: 50px;
+  color: var(--colorPrincipal);
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.proyect-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 400fr);
+  padding: 30px;
+  gap: 30px;
+  font-family: var(--tipografiaPrincipal);
+  color: var(--colorPrincipal);
+  font-size: 20px;
+  text-align: center;
+}
+
+.proyect img {
+  width: 150px;
+  padding: 15px;
 }
 
 .skills{
   background-color: #b5a448;
+  height: 350px;
+}
+
+.skills h2 {
+  font-family: var(--tipografiaPrincipal);
+  font-size: 50px;
+  color: var(--colorPrincipal);
+  padding: 30px;
+}
+
+.skills-grid {
+  font-family: var(--tipografiaPrincipal);
+  font-size: 20px;
+  color: var(--colorPrincipal);
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  text-align: center;
+}
+
+.skills img {
+  width: 150px;
+  padding: 15px;
 }
 
 .contact {
   background-color: #806522;
+  display: flex;
+  justify-content: space-evenly;
 }
+
+.contact-1 {
+  display: flex;
+  align-items: center;
+}
+
+.contact-1 button {
+  padding: 20px;
+  background-color: #c16363;
+  font-family: var(--tipografiaPrincipal0);
+  color: var(--colorPrincipal);
+  font-size: var(--tamaño);
+  border: none;
+  border-radius: 20px;
+  }
+
+  button:hover {
+    background-color: #ed9b9a;
+    cursor: pointer;
+  }
