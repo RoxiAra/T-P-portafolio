@@ -23,6 +23,16 @@ body {
   color: var(--colorPrincipal);
 }
 
+.container-fluid {
+  background-color: #ed9b9a;
+  font-family: var(--tipografiaPrincipal);
+  color: var(--colorPrincipal);
+}
+
+.container-fluid li:hover {
+  background-color: #c16363;
+}
+
 /* INICIO */
 .inicio {
   background-color: #7e3322;
@@ -140,18 +150,24 @@ body {
 
 .flowers-1 img,
 .flowers-2 img {
-  width: 250px;
+  width: 200px;
+  animation: aparecer 2s alternate forwards infinite;
 }
+
+@keyframes aparecer {
+  from {
+    transform: scale(1) rotate(0);
+    opacity: 0;
+  }
+
+  to {
+    transform: scale(1.5) rotate(-20deg);
+    opacity: 1;
+  }
 
 footer {
   background-color: #c16363;
   align-items: center;
   color: var(--colorPrincipal);
   font-size: var(--tamaño);
-}
-
-.container-fluid {
-  background-color: #CB7885;
-  font-family: var(--tipografiaPrincipal);
-  font-size: 20px;
 }
