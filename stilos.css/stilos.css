@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bitter-uniquifier> {
+  font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+:root {
+  --tipografiaPrincipal: "Bitter", serif;
+  --colorPrincipal: #f4f2ef;
+  --margin: 20px;
+  --tamaño: 40px;
+}
+
+body {
+  font-family: var(--tipografiaPrincipal);
+  color: var(--colorPrincipal);
+}
+
+/* INICIO */
+.inicio {
+  background-color: #7e3322;
+  color: var(--colorPrincipal);
+  padding: 40px 20px;
+}
+
+.inicio1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+}
+
+.text h1 {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+.text p {
+  font-size: 20px;
+}
+
+.inicio img {
+  width: 300px;
+  border-radius: 25px;
+  box-shadow: 3px 8px 71px 2px rgba(245, 157, 117, 0.58);
+}
+
+/* SOBRE MÍ */
+.sobre-mi {
+  background-color: #c16363;
+  color: var(--colorPrincipal);
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.sobre-mi h2 {
+  font-size: var(--tamaño);
+  margin-bottom: 20px;
+}
+
+.text-p {
+  font-size: 20px;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* PROYECTOS */
+.proyect {
+  background-color: #ed9b9a;
+  color: var(--colorPrincipal);
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.proyect h2 {
+  font-size: var(--tamaño);
+  margin-bottom: 30px;
+}
+
+.proyect-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  justify-items: center;
+}
+
+.proyect img {
+  width: 150px;
+  margin-top: 10px;
+}
+
+/* HABILIDADES */
+.skills {
+  background-color: #b5a448;
+  color: var(--colorPrincipal);
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.skills h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+/* CONTACTO */
+.contact {
+  background-color: #806522;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.contact-1 button {
+  padding: 15px 25px;
+  background-color: #c16363;
+  font-family: var(--tipografiaPrincipal);
+  color: var(--colorPrincipal);
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.contact-1 button:hover {
+  background-color: #ed9b9a;
+  cursor: pointer;
+}
+
+.flowers-1 img,
+.flowers-2 img {
+  width: 250px;
+}
+
+footer {
+  background-color: #c16363;
+  align-items: center;
+  color: var(--colorPrincipal);
+  font-size: var(--tamaño);
+}
+
+.container-fluid {
+  background-color: #CB7885;
+  font-family: var(--tipografiaPrincipal);
+  font-size: 20px;
+}
